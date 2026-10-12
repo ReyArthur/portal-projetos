@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal de Projetos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white p-4 text-center">
+        <h1>Portal de Notícias e Projetos</h1>
+        <p>Cobertura da apresentação de projetos</p>
+    </header>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Início</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="projeto1.html">Projeto 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projeto2.html">Projeto 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projeto3.html">Projeto 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <section class="mb-5">
+            <h2>Sobre a Cobertura</h2>
+            <p><strong>Equipe:</strong> Arthur da Rosa Lacerda e Jefferson Carneiro</p>
+            <p><strong>Data e Local do evento:</strong> 07 de Outubro de 2026, na UniCatólica (XV Jornada de Iniciação Científica, Extensão e Inovação).</p>
+            <p><strong>Objetivo da cobertura:</strong> Atuar como repórteres e analistas para observar, registrar e publicar uma análise crítica e jornalística sobre os projetos apresentados na jornada científica, destacando seus objetivos, diferenciais de mercado e o impacto tecnológico na sociedade.</p>
+        </section>
+
+        <section>
+            <h2 class="mb-4">Projetos Analisados</h2>
+            <div class="row g-4">
+                <!-- Card Projeto 1 -->
+                <div class="col-12 col-md-4">
+                    <article class="card h-100">
+                        <img src="img/projeto1-capa.jpg" class="card-img-top img-fluid" alt="Pôster do projeto Estimativa de Custo e Esforço em Projetos de Software">
+                        <div class="card-body">
+                            <h5 class="card-title">Estimativa de Custo e Esforço em Projetos de Software</h5>
+                            <p class="card-text">Uma revisão da literatura recente sob a perspectiva da Engenharia Econômica, focada nos modelos de previsão e sustentabilidade na área de tecnologia.</p>
+                            <a href="projeto1.html" class="btn btn-primary">Ler matéria</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- Card Projeto 2 -->
+                <div class="col-12 col-md-4">
+                    <article class="card h-100">
+                        <img src="img/projeto2-capa.jpg" class="card-img-top img-fluid" alt="Pôster do projeto Capacitação em Gestão de Custos para Microempreendedores">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestão de Custos para Microempreendedores</h5>
+                            <p class="card-text">O contributo da Engenharia de Software para a sobrevivência, precificação correta e gestão financeira sustentável nos pequenos negócios e MEIs.</p>
+                            <a href="projeto2.html" class="btn btn-primary">Ler matéria</a>
+                        </div>
+                    </article>
+                </div>
+                <!-- Card Projeto 3 -->
+                <div class="col-12 col-md-4">
+                    <article class="card h-100">
+                        <img src="img/projeto3-capa.jpg" class="card-img-top img-fluid" alt="Pôster do projeto Avaliação de Aplicações de Software na Indústria e Educação">
+                        <div class="card-body">
+                            <h5 class="card-title">Avaliação de Aplicações de Software</h5>
+                            <p class="card-text">Uma análise comparativa dos benefícios e limitações da tecnologia na indústria e na educação sob a rigorosa ótica da Engenharia Econômica.</p>
+                            <a href="projeto3.html" class="btn btn-primary">Ler matéria</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; 2026 Arthur da Rosa Lacerda, Jefferson Carneiro - Soluções para Internet</p>
+    </footer>
+
+    <!-- JavaScript do Bootstrap, no fim do body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
